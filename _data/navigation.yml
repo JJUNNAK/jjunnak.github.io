@@ -7,7 +7,7 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 sidebar-category:
-  - title: "상위메뉴"
+  - title: "개발"
     children:
       - title: "spring"
         url: "/spring/"
