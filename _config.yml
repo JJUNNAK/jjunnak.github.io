@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "JJUNNAK"
 description              : "기술블로그"
-url                      : "https://JJUNNAK.github.io"
+url                      : "https://jjunnak.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -118,8 +118,8 @@ author:
   location         : #"Seoul, Korea"
   email            : "jjunnak98@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
@@ -133,8 +133,8 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
 # Site Footer
