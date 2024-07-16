@@ -1,7 +1,7 @@
 ---
 title: "portfolio-test"
 layout: archive
-permalink: /portfolio/
+permalink: /2024portfolio/
 ---
 
 
