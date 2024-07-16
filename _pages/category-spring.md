@@ -1,6 +1,6 @@
 ---
 title: "spring"
-layout: archive
+layout: single
 permalink: /spring/
 ---
 12341234
