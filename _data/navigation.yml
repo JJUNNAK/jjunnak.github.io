@@ -1,0 +1,14 @@
+# main links
+main:
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+sidebar-category:
+  - title: "상위메뉴"
+    children:
+      - title: "spring"
+        url: "/spring/"
+        
