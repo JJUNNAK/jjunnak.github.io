@@ -1,4 +1,4 @@
-# main links
+# 화면 상단 네비게이션 바
 main:
   # - title: "Sample Posts"
   #   url: /year-archive/
@@ -6,6 +6,7 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+# 화면 좌측 사이드 네비게이션
 sidebar-category:
   - title: "개발"
     children:
