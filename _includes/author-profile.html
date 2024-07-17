@@ -50,10 +50,13 @@
       {% if author.email %}
         <li>
           <a href="mailto:{{ author.email }}" rel="me" class="u-email">
+            <!-- 이메일 아이콘 제거 -->
             <!-- <meta itemprop="email" content="{{ author.email }}" /> -->
             <meta itemprop="email" content="{{ author.email }}" />
+            <!-- 이메일 아이콘 제거 -->
             <!-- <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> -->
-            <span class="label">{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</span>
+            <!-- <span class="label">{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</span> -->
+            <span class="label">{{ author.email }}</span>
           </a>
         </li>
       {% endif %}
