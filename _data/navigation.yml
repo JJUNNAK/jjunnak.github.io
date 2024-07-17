@@ -13,5 +13,5 @@ sidebar-category:
       - title: "spring"
         url: "/spring/"
   - title: "개발일지"
-    url: "/dev-record/"
+    url: "/devRecord/"
         
