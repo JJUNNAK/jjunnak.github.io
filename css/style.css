@@ -1237,6 +1237,7 @@ Components
 .js .to-animate,
 .js .feature-box,
 .js .work-box,
+.js .history-box,
 .js .footer-box,
 .js .animate-box {
   opacity: 0;

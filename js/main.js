@@ -275,7 +275,21 @@
 			});
 		}
 	};
-
+		// Animate Works
+	var animateHistory = function() {
+		if ( $('.history-box').length > 0 ) {
+			$('.history-box').each(function( k ) {
+				
+				var el = $(this);
+				
+				setTimeout ( function () {
+					// el.animate({opacity: 1} , 600 );
+					el.addClass('fadeInUp animated');
+				},  k * 200, 'easeInOutExpo' );
+				
+			});
+		}
+	};
 	// Animate Works
 	var animateFooter = function() {
 				
@@ -316,6 +330,22 @@
 				if( direction === 'down' && !$(this).hasClass('animated') ) {
 					
 					setTimeout( animateWork , 200);
+					
+					$(this).addClass('animated');
+						
+				}
+				// 95%
+			} , { offset: '70%' } );
+		}
+	};
+
+	var historyWayPoint = function() {
+		if ($('#fh5co-history').length > 0 ) {
+			$('#fh5co-history').waypoint( function( direction ) {
+										
+				if( direction === 'down' && !$(this).hasClass('animated') ) {
+					
+					setTimeout( animateHistory , 200);
 					
 					$(this).addClass('animated');
 						
@@ -412,6 +442,7 @@
 		heroWayPoint();
 		featureWayPoint();
 		worksWayPoint();
+		historyWayPoint();
 		footerWayPoint();
 		contentWayPoint();
 
